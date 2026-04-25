@@ -62,75 +62,84 @@ Requires Login
 
 register
 <username>
+
 Register a new user with the specified username
-No
 
 
 login
 <username>
+
 Log in as an existing user
-No
+
 
 
 reset
 None
+
 Reset the user database (deletes all users)
-No
 
 
 users
 None
+
 List all registered users, marking the current logged-in user
-No
+
 
 
 addfeed
 <feed name> <feed url>
+
 Add a new RSS feed and follow it
-Yes
 
 
 feeds
 None
+
 List all feeds in the system
-No
+
 
 
 follow
 <feed url>
+
 Follow an existing feed by URL
-Yes
 
 
 unfollow
 <feed url>
+
 Unfollow a feed by URL
-Yes
+
 
 
 following
 None
+
 List all feeds the current user is following
-Yes
+
 
 
 agg
 <time_between_reqs>
+
 Aggregate feeds periodically, with interval specified in seconds (s), minutes (m), or hours (h)
-No
+
 
 
 browse
 None
+
 Browse feed content interactively (implementation detail, requires login)
-Yes
+
 
 
 
 Configuration
+
 The CLI stores the current logged-in user in a local configuration file. No additional configuration is required to start, but you must be logged in to use commands that modify or access user-specific data.
 
 Contributing
+
 Contributions are welcome! Please follow these steps:
 
 Fork the repository  
